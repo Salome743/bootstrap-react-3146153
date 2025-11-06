@@ -4,10 +4,10 @@ import "../stylesheets/NavBar.css"
 export const NavBar = () => {
   return (
     <div>
-      <div>
-        <h2>Extensions</h2>
-      </div>
+      <div className='Barra'>
+        <h2>🌸Extensions</h2>
       <button className="btn-mode">☀️</button>
+      </div>
     </div>
   )
 }
