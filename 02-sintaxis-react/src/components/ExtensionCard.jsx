@@ -15,7 +15,7 @@ export const ExtensionCard = ({cardTitle, cardImage, cardDescription}) => {
        </div>
        <div className="remove">
         <div className="remove1">Remove</div>
-        <div className="boton"></div>
+        <div className="boton">⚪</div>
        </div>
      </div>
     </>
