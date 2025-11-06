@@ -5,7 +5,6 @@ export const NavBar = () => {
   return (
     <div>
       <div>
-        <img src="" alt="" />
         <h2>Extensions</h2>
       </div>
       <button className="btn-mode">☀️</button>

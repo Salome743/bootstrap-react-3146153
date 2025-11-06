@@ -18,10 +18,6 @@ export const ExtensionCard = ({cardTitle, cardImage, cardDescription}) => {
         <div className="boton"></div>
        </div>
      </div>
-export const ExtensionCard = () => {
-  return (
-    <>
-      <h1 className="title">Card Extension</h1>
     </>
   )
 }
