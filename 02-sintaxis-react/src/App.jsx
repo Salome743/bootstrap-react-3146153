@@ -49,7 +49,11 @@ export const App = () => {
       cardImage="🖼"
       cardDescription="Aplicacion para ver fotos"
       />
-
+      <ExtensionCard
+      cardTitle="Tik Tok"
+      cardImage="📯"
+      cardDescription="Aplicacion para ver y grabar videos cortos"
+      />  
       </div>
       <LoginForm/>
     </>
