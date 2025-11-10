@@ -2,6 +2,7 @@ import "./App.css"
 import { NavBar } from './components/NavBar'
 import { ExtensionCard } from './components/ExtensionCard'
 import { LoginForm } from "./components/LoginForm"
+import ProductCard from "./components/ProductCard"
 
 export const App = () => {
   return (
@@ -54,8 +55,10 @@ export const App = () => {
       cardImage="📯"
       cardDescription="Aplicacion para ver y grabar videos cortos"
       />  
+      
       </div>
       <LoginForm/>
+      <ProductCard/>
     </>
   )
 }
