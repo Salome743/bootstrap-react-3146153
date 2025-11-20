@@ -1,0 +1,62 @@
+.tile {
+  height: 120px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.container1{
+  display: flex;
+  align-items: center;
+  gap: 95vh;
+}
+
+
+.big-tile {
+  height: 260px;
+}
+
+
+.tile-green {
+  background: #7ab29f;
+}
+
+.tile-lightgreen {
+  background: #75b7a7;
+}
+
+.tile-blue {
+  background: #4ca0c3;
+  height: 260px;
+}
+
+.tile-pink {
+  background: #cc5b8b;
+}
+
+.tile-red {
+  background: #b95645;
+}
+
+.tile-orange {
+  background: #c5743c;
+}
+
+.tile-yellow {
+  background: #d89d3c;
+}
+
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.icon-big {
+  font-size: 60px;
+  margin-bottom: 12px;
+}
