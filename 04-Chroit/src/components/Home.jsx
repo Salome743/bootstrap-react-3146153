@@ -18,6 +18,7 @@ function Home() {
                     imagen={totePurple}
                     nombre="TOTE BAG"
                     precio="$000.000"
+                
                 />
                 </div>
 
@@ -26,7 +27,26 @@ function Home() {
                     imagen={toteWhite}
                     nombre="TOTE BAG"
                     precio="$000.000"
+                
                 />
+                </div>
+
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={totePurple}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
+                </div>
+
+                <div className="col-12 col-md-4">
+                
+                <Producto
+                    imagen={toteWhite}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                    />
+                    
                 </div>
 
                 <div className="col-12 col-md-4">
@@ -42,22 +62,7 @@ function Home() {
                     imagen={toteWhite}
                     nombre="TOTE BAG"
                     precio="$000.000"
-                />
-                </div>
-
-                <div className="col-12 col-md-4">
-                <Producto
-                    imagen={totePurple}
-                    nombre="TOTE BAG"
-                    precio="$000.000"
-                />
-                </div>
-
-                <div className="col-12 col-md-4">
-                <Producto
-                    imagen={toteWhite}
-                    nombre="TOTE BAG"
-                    precio="$000.000"
+                    textoBoton="verde"
                 />
                 </div>
 
@@ -94,7 +99,7 @@ function Home() {
                 </div>
 
                 {/* MARIANA */}
-                <div className="team-card">
+                <div className=" team-card">
                 <img src="../src/assets/mariana.png" alt="integrante" className="team-avatar" />
 
                 <h3>Mariana</h3>

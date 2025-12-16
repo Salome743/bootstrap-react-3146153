@@ -1,4 +1,4 @@
-function Producto({ imagen, nombre, precio }) {
+function Producto({ imagen, nombre, precio,textoBoton }) {
   return (
     <div className="producto-card">
       <img src={imagen} alt={nombre} className="producto-img" />
@@ -10,6 +10,7 @@ function Producto({ imagen, nombre, precio }) {
       </div>
 
       <button className="btn-comprar">COMPRAR</button>
+     
     </div>
   );
 }
