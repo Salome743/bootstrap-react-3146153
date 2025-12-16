@@ -1,90 +1,64 @@
 import "./Home.css";
+import Producto from "./Producto.jsx";
+
+import totePurple from "../assets/totePurple.png";
+import toteWhite from "../assets/toteWhite.png";
+
 function Home() {
   return (
     <>
         {/* SECCION-SHOP */}
-        <section className="productos-section container">
-
+        <section className="container my-5">
         <h2 className="productos-title text-center">PRODUCTOS</h2>
 
-            <div className="productos-grid">
+            <div className="row g-5">
 
-                {/* PRODUCTO 1 */}
-                <div className="producto-card">
-                <img src="../assets/tote-purple.png" alt="tote bag" className="producto-img" />
-
-                <div className="producto-info">
-                    <h4>TOTE BAG</h4>
-                    <p>$000.000</p>
-                    <i className="bi bi-heart"></i>
-                </div>
-                
-                <button className="btn-comprar">COMPRAR</button>
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={totePurple}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
                 </div>
 
-                {/* PRODUCTO 2 */}
-                <div className="producto-card">
-                <img src="../assets/tote-white.png" alt="tote bag" className="producto-img" />
-
-                <div className="producto-info">
-                    <h4>TOTE BAG</h4>
-                    <p>$000.000</p>
-                    <i className="bi bi-heart"></i>
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={toteWhite}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
                 </div>
 
-                <button className="btn-comprar">COMPRAR</button>
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={totePurple}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
                 </div>
 
-                {/* PRODUCTO 3 */}
-                <div className="producto-card">
-                <img src="../assets/gorra.png" alt="gorra" className="producto-img" />
-
-                <div className="producto-info">
-                    <h4>GORRA</h4>
-                    <p>$000.000</p>
-                    <i className="bi bi-heart"></i>
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={toteWhite}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
                 </div>
 
-                <button className="btn-comprar">COMPRAR</button>
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={totePurple}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
                 </div>
 
-                {/* PRODUCTO 4 */}
-                <div className="producto-card">
-                <img src="../assets/funda-white.png" alt="funda" className="producto-img" />
-
-                <div className="producto-info">
-                    <h4>FUNDA</h4>
-                    <p>$000.000</p>
-                    <i className="bi bi-heart"></i>
-                </div>
-
-                <button className="btn-comprar">COMPRAR</button>
-                </div>
-
-                {/* PRODUCTO 5 */}
-                <div className="producto-card">
-                <img src="../assets/funda-purple.png" alt="funda" className="producto-img" />
-
-                <div className="producto-info">
-                    <h4>FUNDA</h4>
-                    <p>$000.000</p>
-                    <i className="bi bi-heart"></i>
-                </div>
-
-                <button className="btn-comprar">COMPRAR</button>
-                </div>
-
-                {/* PRODUCTO 6 */}
-                <div className="producto-card">
-                <img src="../assets/vaso.png" alt="vaso" className="producto-img" />
-
-                <div className="producto-info">
-                    <h4>VASO</h4>
-                    <p>$000.000</p>
-                    <i className="bi bi-heart"></i>
-                </div>
-
-                <button className="btn-comprar">COMPRAR</button>
+                <div className="col-12 col-md-4">
+                <Producto
+                    imagen={toteWhite}
+                    nombre="TOTE BAG"
+                    precio="$000.000"
+                />
                 </div>
 
             </div>
@@ -100,7 +74,7 @@ function Home() {
 
                 {/* SALOME */}
                 <div className="team-card">
-                <img src="../assets/salome.png" alt="integrante" className="team-avatar" />
+                <img src="../src/assets/salome.png" alt="integrante" className="team-avatar" />
 
                 <h3>Salome</h3>
 
@@ -121,7 +95,7 @@ function Home() {
 
                 {/* MARIANA */}
                 <div className="team-card">
-                <img src="../assets/mariana.png" alt="integrante" className="team-avatar" />
+                <img src="../src/assets/mariana.png" alt="integrante" className="team-avatar" />
 
                 <h3>Mariana</h3>
 
@@ -142,7 +116,7 @@ function Home() {
 
                 {/* PAULINA */}
                 <div className="team-card">
-                <img src="../assets/paulina.png" alt="integrante" className="team-avatar" />
+                <img src="../src/assets/paulina.png" alt="integrante" className="team-avatar" />
 
                 <h3>Paulina</h3>
 

@@ -227,10 +227,8 @@ body {
   opacity: .7;
   transform: scale(1.12);
 }
-
 @media (max-width: 768px) {
-
-  /* ---------- PRODUCTOS ---------- */
+ /* ---------- PRODUCTOS ---------- */
   .productos-grid {
     grid-template-columns: 1fr;
   }
